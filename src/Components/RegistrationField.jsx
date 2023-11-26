@@ -1,10 +1,11 @@
 import './RegistrationField.css'
 
 function RegistrationField(props){
+
     return (
         <div className="Registration-field">
-            <label for={props.name}> {props.labelText} </label>
-            <input className='Registration-input' type={props.type} id={props.name} name={props.name}/>
+            <label for={props.name}> {props.labelText} </label> 
+            <input onChange={props.handler} value={props.value} className='Registration-input' type={props.type} id={props.name} name={props.name}/>
         </div>
     );
 }
