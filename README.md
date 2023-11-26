@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# GSU React Talk App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+This repository was made to demonstrate the core functionalities of react by showing concepts such as jsx components, props, state, controlled components, lifting state up, and jest testing.
+
+## Setup Instruction
+```
+npm install
+npm start
+```
 
 ## Available Scripts
 
@@ -68,4 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GSU-React-Talk
