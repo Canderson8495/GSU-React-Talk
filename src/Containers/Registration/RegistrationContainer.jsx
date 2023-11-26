@@ -57,7 +57,7 @@ function RegistrationContainer() {
             setPassword({value: password.value, error:error})
         }
 
-        error = validateVerifyPassword(verifyPassword.value)
+        error = validateVerifyPassword(verifyPassword.value, password.value)
         if(error !==  ''){
             failed = true
             setVerifyPassword({value: verifyPassword.value, error: error})

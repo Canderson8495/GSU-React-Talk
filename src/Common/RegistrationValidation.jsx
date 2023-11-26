@@ -6,6 +6,8 @@ export const validateName = (name) => {
         return "This name must not be blank"
     }else if(!nonNumericText.test(name)){
         return "This name must not have any numbers"
+    }else if(name.length > 24){
+        return "The name must not exceed 24 characters"
     }
 }
 
@@ -31,6 +33,7 @@ export const validateVerifyPassword = (verifyPassword, password) => {
     if(verifyPassword === ''){
         return "Verify Password must not be blank"
     }else if (verifyPassword !== password){
+        console.log(verifyPassword + ' | ' +  password)
         return "Verify Password must be match password"
     }
 }

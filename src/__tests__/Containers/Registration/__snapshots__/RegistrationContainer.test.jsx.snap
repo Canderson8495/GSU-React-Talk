@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of Registration Container 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Registration-container"
+      >
+        <div
+          class="Registration-title"
+        >
+          <h1>
+             Registration 
+          </h1>
+        </div>
+        <div
+          class="Registration-fields"
+        >
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="fname"
+            >
+               
+              First Name
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="lname"
+            >
+               
+              Last Name
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="email"
+            >
+               
+              Email
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="password"
+            >
+               
+              Password
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="vpassword"
+            >
+               
+              Verify Password
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="vpassword"
+              name="vpassword"
+              placeholder="Verify Password"
+              type="password"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="bday"
+            >
+               
+              Birthday
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="bday"
+              name="bday"
+              placeholder="Birthday"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+            </p>
+          </div>
+        </div>
+        <button
+          class="Registration-button"
+          type="button"
+        >
+          <p>
+             Register 
+          </p>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Registration-container"
+    >
+      <div
+        class="Registration-title"
+      >
+        <h1>
+           Registration 
+        </h1>
+      </div>
+      <div
+        class="Registration-fields"
+      >
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="fname"
+          >
+             
+            First Name
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="lname"
+          >
+             
+            Last Name
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="email"
+          >
+             
+            Email
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="password"
+          >
+             
+            Password
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="password"
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="vpassword"
+          >
+             
+            Verify Password
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="vpassword"
+            name="vpassword"
+            placeholder="Verify Password"
+            type="password"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="bday"
+          >
+             
+            Birthday
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="bday"
+            name="bday"
+            placeholder="Birthday"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+          </p>
+        </div>
+      </div>
+      <button
+        class="Registration-button"
+        type="button"
+      >
+        <p>
+           Register 
+        </p>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Snapshot test of Registration Container with errors 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Registration-container"
+      >
+        <div
+          class="Registration-title"
+        >
+          <h1>
+             Registration 
+          </h1>
+        </div>
+        <div
+          class="Registration-fields"
+        >
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="fname"
+            >
+               
+              First Name
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              This name must not be blank
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="lname"
+            >
+               
+              Last Name
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              This name must not be blank
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="email"
+            >
+               
+              Email
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              Email must not be blank
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="password"
+            >
+               
+              Password
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              password must not be blank
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="vpassword"
+            >
+               
+              Verify Password
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="vpassword"
+              name="vpassword"
+              placeholder="Verify Password"
+              type="password"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              Verify Password must not be blank
+            </p>
+          </div>
+          <div
+            class="Registration-field"
+          >
+            <label
+              for="bday"
+            >
+               
+              Birthday
+               
+            </label>
+            <input
+              class="Registration-input"
+              id="bday"
+              name="bday"
+              placeholder="Birthday"
+              type="text"
+              value=""
+            />
+            <p
+              class="Registration-error"
+            >
+               
+              Birthday must not be blank
+            </p>
+          </div>
+        </div>
+        <button
+          class="Registration-button"
+          type="button"
+        >
+          <p>
+             Register 
+          </p>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Registration-container"
+    >
+      <div
+        class="Registration-title"
+      >
+        <h1>
+           Registration 
+        </h1>
+      </div>
+      <div
+        class="Registration-fields"
+      >
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="fname"
+          >
+             
+            First Name
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            This name must not be blank
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="lname"
+          >
+             
+            Last Name
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            This name must not be blank
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="email"
+          >
+             
+            Email
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            Email must not be blank
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="password"
+          >
+             
+            Password
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="password"
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            password must not be blank
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="vpassword"
+          >
+             
+            Verify Password
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="vpassword"
+            name="vpassword"
+            placeholder="Verify Password"
+            type="password"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            Verify Password must not be blank
+          </p>
+        </div>
+        <div
+          class="Registration-field"
+        >
+          <label
+            for="bday"
+          >
+             
+            Birthday
+             
+          </label>
+          <input
+            class="Registration-input"
+            id="bday"
+            name="bday"
+            placeholder="Birthday"
+            type="text"
+            value=""
+          />
+          <p
+            class="Registration-error"
+          >
+             
+            Birthday must not be blank
+          </p>
+        </div>
+      </div>
+      <button
+        class="Registration-button"
+        type="button"
+      >
+        <p>
+           Register 
+        </p>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
