@@ -1,36 +1,81 @@
 import './RegistrationContainer.css'
 import RegistrationField from '../../Components/RegistrationField';
 import { useState } from 'react';
-
+import { validateBirthday, validateName, validatePassword, validateVerifyPassword, validateEmail } from '../../Common/RegistrationValidation';
 function RegistrationContainer() {
 
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setlastName] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [verifyPassword, setVerifyPassword] = useState('');
-    const [birthday, setBirthday] = useState('');
+    const [firstName, setFirstName] = useState({value: '', error: ''});
+    const [lastName, setLastName] = useState({value: '', error: ''});
+    const [email, setEmail] = useState({value: '', error: ''});
+    const [password, setPassword] = useState({value: '', error: ''});
+    const [verifyPassword, setVerifyPassword] = useState({value: '', error: ''});
+    const [birthday, setBirthday] = useState({value: '', error: ''});
 
     const handleFirstNameChange = (event ) => {
-        setFirstName(event.target.value);
+        setFirstName({value: event.target.value, error: ''});
     }
     const handleLastNameChange = (event ) => {
-        setlastName(event.target.value);
+        setLastName({value: event.target.value, error: ''});
     }
     const handleEmailChange = (event ) => {
-        setEmail(event.target.value);
+        setEmail({value: event.target.value, error: ''});
     }
     const handlePassword = (event ) => {
-        setPassword(event.target.value);
+        setPassword({value: event.target.value, error: ''});
     }
     const handleVerifyPasswordChange = (event ) => {
-        setVerifyPassword(event.target.value);
+        setVerifyPassword({value: event.target.value, error: ''});
     }
     const handleBirthdayChange = (event ) => {
-        setBirthday(event.target.value);
+        setBirthday({value: event.target.value, error: ''});
     }
 
-    //HOMEWORK TO AUDIENCE: In your spare time, why don't you try to use the useReducer hook to clean this up and consolidate this?
+    const handleRegisterClick = () => {
+        let failed = false;
+
+        let error = validateName(firstName.value)
+        if(error !== '' ){
+            failed = true
+            setFirstName({value: firstName.value, error:error})
+        }
+
+        error = validateName(lastName.value)
+        if(error !== '' ){
+            failed = true
+            setLastName({value: lastName.value, error:error})
+        }
+
+        error = validateEmail(email.value)
+        if(error !== '' ){
+            failed = true
+            setEmail({value: email.value, error:error})
+        }
+
+        error = validatePassword(password.value)
+        if(error !== '' ){
+            failed = true
+            setPassword({value: password.value, error:error})
+        }
+
+        error = validateVerifyPassword(verifyPassword.value)
+        if(error !==  ''){
+            failed = true
+            setVerifyPassword({value: verifyPassword.value, error: error})
+        }
+
+        error = validateBirthday(verifyPassword.value)
+        if(error !==  ''){
+            failed = true
+            setBirthday({value: birthday.value, error: error})
+        }
+
+        if(!failed){
+            console.log("Make a POST request here!")
+        }
+
+    }
+
+    //HOMEWORK TO AUDIENCE: stage-3 branch | Why don't you try to use the useReducer hook to clean this up and consolidate this?
     return (
         <div className="Registration-container">
           <div className="Registration-title"> 
@@ -43,7 +88,7 @@ function RegistrationContainer() {
                 labelText="First Name"
                 type="text"
                 handler={handleFirstNameChange}
-                value={firstName}
+                data={firstName}
             />
 
             <RegistrationField
@@ -51,7 +96,7 @@ function RegistrationContainer() {
                 labelText="Last Name"
                 type="text"
                 handler={handleLastNameChange}
-                value={lastName}
+                data={lastName}
             />
 
             <RegistrationField
@@ -59,7 +104,7 @@ function RegistrationContainer() {
                 labelText="Email"
                 type="text"
                 handler={handleEmailChange}
-                value={email}
+                data={email}
             />
             
             <RegistrationField
@@ -67,7 +112,7 @@ function RegistrationContainer() {
                 labelText="Password"
                 type="password"
                 handler={handlePassword}
-                value={password}
+                data={password}
             />
 
             <RegistrationField
@@ -75,7 +120,7 @@ function RegistrationContainer() {
                 labelText="Verify Password"
                 type="password"
                 handler={handleVerifyPasswordChange}
-                value={verifyPassword}
+                data={verifyPassword}
             />
 
             <RegistrationField
@@ -83,16 +128,15 @@ function RegistrationContainer() {
                 labelText="Birthday"
                 type="text"
                 handler={handleBirthdayChange}
-                value={birthday}
+                data={birthday}
             />
 
           </div>
-          <button className='Registration-button' type="button">
+          <button onClick={handleRegisterClick} className='Registration-button' type="button">
             <p> Register </p> 
             </button>
         </div>
     );
-
 }
 
 export default RegistrationContainer;
